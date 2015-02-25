@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+</head>
+<body>
+		
+		<form  name = "uyeKayit" id="adi" method = "post" >
+		
+		<fieldset> 
+		<legend>Üyelik Bilgileri </legend>
+		<label for="isminiz" > İsminiz </label>  <input type = "text" name ="Adiniz" id="isminiz" value ="" placeholder ="Yaz" maxlength = "6" size="20" />
+		
+		
+		<label for="soyadiniz"> Soyadınız </label><input type = "text" name ="Soyad" id ="soyadiniz"  value ="" placeholder ="soyad" maxlength = "6" size="20" /> <br>
+		
+		<label for="parola" > Parola </label> <input type ="password" name ="parola" id="parola"   /> <br>
+		
+		</fieldset>
+		
+		<fieldset> <legend> Webdeki Programlar </legend>
+		
+		<label for ="photoshop" > Photoshop</label> <input type = "checkbox" name="photoshop" id ="photoshop" /><br>
+		<label for ="fireworks" > fireworks</label> <input type = "checkbox" name="fireworks" id ="fireworks" /><br>
+		
+		</fieldset>
+		<legend>Cinsiyetiniz : </legend>
+		<label>Bay</label> <input type = "radio" name="cinsiyet" id="cinsiyet" /> 
+		<label>Bayan</label> <input type = "radio" name="cinsiyet" id="cinsiyet" /> <br>
+		<textarea name ="mesajbox" columns = "15" rows = "5" >
+		
+		</textarea>
+		<label> Resim Yükle</label> <input type ="file" value ="" />
+		<input type = "submit" name="Hop"/>		
+		<input type = "reset"" value ="Offffff" /> <br>
+		
+		Birini Seciniz
+		<select name ="select" >
+			<option name ="lütfen" disabled = "disabled" selected = "selected"> Lütfen Bir secim yapınız  </option>
+			<option name ="html" disabled = "disabled"> Html  </option>
+			<option name ="html2" > Html2  </option>
+			<option name ="html3" > Html3  </option>
+			<option name ="html2" > Html2  </option>
+			<optgroup label ="worry" >  
+			<option name ="html3" > Html3  </option>
+			<option name ="html2" > Html2  </option>
+			<option name ="html3" > Html3  </option>
+			</optgroup>
+			<option name ="html2" > Html2  </option>
+			<option name ="html3" > Html3  </option>
+		
+		
+		</select>
+		
+		<form name = "html" method="get" >
+		<input type = "date" name= "date" pattern ="\d{4}-\d{2}\d{2}" title ="DD-MM-YYYY" />
+		<input type = "color" name= "renk"  /> <br>
+		<label> e-posta yolla </label> <input type ="submit" value ="" />
+		<input type = "search" name="source" />
+		<input type = "email" name= "posta" multiple />
+			<input type = "url" name="url" />
+			<input type = "number" name="number" />
+			<input type = "range" name="range" min="0" max="60" step="20"/>
+		<input type = "submit" name="Mesaji yolla" value="Mesajı Yolla" />
+		</form>
+		
+		<form name="test" method = "get" >
+		<label > adi  &nbsp &nbsp&nbsp&nbsp:  </label>
+		<input type = "text" name="adi" value="" /> </br>
+		<label > soyadi:     </label>
+		<input type = "text" name="soyadi" value=""/> </br>
+		<input type = "text" name="konu" value=""  /> </br>
+		<input type = "text" name="sehir" value="" /> </br>
+		<input type = "submit" name="source" value="Gönder"/>
+		<input type = "checkbox" name="sozlesme" value="" checked />
+		<input type = "text"  list="veriler" />
+		<datalist id="verilr"
+			<option value="hello" > whatsup  </option>
+			<option value="hi" > HiMate  </option>
+			<option value="yo" > YoYowhatsup  </option>
+		</datalist>
+		</form>
+		
+		</form>
+		
+</body>
+</html>
